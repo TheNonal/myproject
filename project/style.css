@@ -1,0 +1,20 @@
+.map {
+	height: 600px;
+	width: 800px;
+}
+
+
+
+.map_balloon {
+	padding: 5px;
+	font-size: 20px;
+	line-height: 1;
+	color: #333;
+	border-radius: 20px;
+}
+
+.map_img {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
