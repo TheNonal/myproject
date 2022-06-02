@@ -1,7 +1,8 @@
-.map {  
-    margin-top: 50px;
+.map {
+
 	height: 600px;
 	width: auto;
+    margin-top: 50px;
 }
 
 .form {
@@ -24,10 +25,6 @@
 	width: 200px;
 }
 
-.map_info h2{
-    font-size: 40px;
-}
-
 .contact{
     background-color: #f7654a;
     color: #fff;
@@ -40,13 +37,6 @@
     
 }
 
-.box-banner{
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-	padding: 20px 0 20px;
-}
-
 .box-banner1{
     justify-content: space-between;
     align-items: center;
@@ -54,22 +44,12 @@
 	margin: -5px;
 }
 
-.box-banner2{
+.box-banner{
     justify-content: space-between;
     align-items: center;
     text-align: center;
 	padding: 20px 0 20px;
-    margin-top: 150px;
 }
-
-.box-banner2 h3{
-    font-size: 48px;
-    letter-spacing: 2px;
-    margin-top: 0;
-    margin-bottom: 20px;
-	text-transform: uppercase;
-}
-
 
 .box-banner h3{
     font-size: 48px;
@@ -87,10 +67,99 @@
 	text-transform: uppercase;
 }
 
+.footer-contact{
+	align-items: flex-start;
+	margin-top: 61px;
+	flex-wrap: wrap;
+}
+
+.footer-contact > div{
+	flex-basis: 49%;
+	max-width: 49%;
+	margin-bottom: 20px;
+}
+
+.footer-contact h3, .footer-contact-info{
+	font-size: 20px;
+}
+
+.footer-contact-info > li{
+	margin-bottom: 5px;
+}
+
+.footer{
+	margin-top: 32px;
+}
 
 
 
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.map_info h2, p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.search{
+    text-align: center;
+}
+
+.found{
+    text-align: center;
+}
+
+.search a{
+    color: #FF0000;
+}
+
+.found a{
+    color: #44944A; 
+}
+
+.map_info h2{
+font-size: 40px;
+}
+
+.bg{
+    background-image: url(../img/dog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+
+.box-party{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 56px;
+    margin-bottom: 85px;
+    
+}
+
+.box-party > div{
+    flex-basis: 31.5%;
+    max-width: 31.5%;
+}
+
+.box-party img{
+    width: 100%;
+}
 
 .footer-contact{
     display: flex;
@@ -145,27 +214,27 @@
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-.bg{
-    background-image: url(../img/dog.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.box-banner2{
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    height: 60vh;
-    position: relative;
-    z-index: -1;
+	padding: 20px 0 20px;
+    margin-top: 100px;
 }
 
-.wrapper{
-    max-width: 1110px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.box-banner2 h3{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+	text-transform: uppercase;
 }
+
+.search{
+    margin-left: 250px;
+}
+
+.found{
+    margin-right: 250px;
+}
+

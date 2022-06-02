@@ -8,6 +8,7 @@ $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
 $password = $_POST['user_password'];
+$info = $_POST['user_info'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
@@ -29,7 +30,7 @@ $mail->addAddress('oskonbaev.2k4@yandex.ru');     // Кому будет ухо�
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка';
-$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
+$mail->Body    = '' .$name. ' оставил объявление ' .$info. ', его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
