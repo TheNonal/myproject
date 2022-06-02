@@ -1,0 +1,109 @@
+.map {
+
+	height: 600px;
+	width: auto;
+}
+
+.form {
+	background-color: #f9f9f9;
+	padding: 20px;
+	margin: 20px;
+}
+
+.map_balloon {
+	padding: 5px;
+	font-size: 20px;
+	line-height: 1;
+	color: #333;
+	border-radius: 20px;
+}
+
+.map_img {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.contact{
+    background-color: #f7654a;
+    color: #fff;
+
+}
+
+.banner{
+    background-color: #f7654a;
+    color: #fff;
+    
+}
+
+.box-banner1{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+	margin: -5px;
+}
+
+.box-banner{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+	padding: 20px 0 20px;
+}
+
+.box-banner h3{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.box-banner1 h3{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.footer-contact{
+	align-items: flex-start;
+	margin-top: 61px;
+	flex-wrap: wrap;
+}
+
+.footer-contact > div{
+	flex-basis: 49%;
+	max-width: 49%;
+	margin-bottom: 20px;
+}
+
+.footer-contact h3, .footer-contact-info{
+	font-size: 20px;
+}
+
+.footer-contact-info > li{
+	margin-bottom: 5px;
+}
+
+.footer{
+	margin-top: 32px;
+}
+
+.bg{
+    background-image: url(../img/dog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
